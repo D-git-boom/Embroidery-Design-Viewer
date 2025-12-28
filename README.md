@@ -1,120 +1,139 @@
-🧵 Online Embroidery Design Viewer & Converter
+# 🧵 **Online Embroidery Design Viewer & Converter**
 
-A web-based embroidery file viewer that allows users to preview multiple embroidery formats directly in the browser — no bulky desktop software required.
+> **A fast, browser-based embroidery design viewer** that lets you preview embroidery files **without installing heavy desktop software**.
 
-Built for embroidery professionals, designers, and machine operators who need quick access to design previews on any device.
+Built for **embroidery professionals, designers, and machine operators** who need **quick, reliable previews** on any device.
 
-🚀 Features
+---
 
-📂 Supports multiple embroidery formats
+## ✨ **Why This Project Exists**
 
-.DST, .EXP, .EXY, .JEF, .PCS, .PEC, .PES, .SEW, .VP3, .XXX, .ZOO
+Most embroidery software is:
 
-👀 Instant design preview in the browser
+* ❌ Expensive
+* ❌ Heavy to install
+* ❌ Locked to specific machines
 
-🧵 Stitch-based rendering
+This project solves that by providing a **simple web-based solution** that works **anywhere**.
 
-🧊 3D render mode for better depth visualization
+---
 
-💾 Save rendered output
+## 🚀 **Key Features**
 
-⚡ No installation required
+* 📂 **Supports multiple embroidery formats**
 
-🌐 Works on any modern browser
+  * `.DST`, `.EXP`, `.EXY`, `.JEF`, `.PCS`, `.PEC`, `.PES`, `.SEW`, `.VP3`, `.XXX`, `.ZOO`
+* 👀 **Instant in-browser preview**
+* 🧵 **Stitch-accurate rendering**
+* 🧊 **3D visualization mode**
+* 💾 **Save rendered output**
+* ⚡ **Lightweight & fast**
+* 🌐 **Runs on any modern browser**
+* 🖥️ **No installation required**
 
-🧠 Lightweight & fast
+---
 
-❌ Currently Not Supported
+## ❌ **Unsupported Formats**
 
-The following formats are intentionally blocked due to technical limitations:
+> ⚠️ The following formats are currently **not supported** due to technical limitations:
 
-.EMB
+* `.EMB`
+* `.DGT`
+* `.VF3`
 
-.DGT
+Uploading these files may result in **incorrect or failed rendering**.
 
-.VF3
+---
 
-⚠️ Uploading these formats may cause incorrect rendering.
+## 🧑‍🏭 **Who Is This For?**
 
-🖥️ Use Case
+This tool is ideal for:
 
-This tool is especially useful for:
+* **Embroidery business owners**
+* **Machine operators**
+* **Designers reviewing stitch files**
+* **Users working on low-end devices**
+* **Teams needing quick file previews**
 
-🧑‍🏭 Embroidery business owners
+---
 
-🧵 Machine operators
-
-🎨 Designers reviewing files before production
-
-📱 Users who want previews on mobile or low-end devices
-
-💼 Teams needing a quick browser-based solution
-
-📸 Preview
+## 📸 **Preview**
 
 Coming Soon...✌🏼
 
-🛠️ Tech Stack
+---
 
-Frontend: HTML, CSS, JavaScript
+## 🛠️ **Tech Stack**
 
-Rendering: Canvas / WebGL (3D mode)
+* **Frontend:** HTML, CSS, JavaScript
+* **Rendering:** Canvas / WebGL (3D mode)
+* **Backend:** None (client-side only)
 
-No backend dependency (currently)
+---
 
-📦 Installation (Local Setup)
+## 📦 **Getting Started**
+
+### 🔹 Clone the Repository
+
+```bash
 git clone https://github.com/your-username/embroidery-design-viewer.git
 cd embroidery-design-viewer
+```
 
+### 🔹 Run Locally
 
-Open index.html directly in your browser
-OR run via a local server for best performance.
+* Open `index.html` in your browser
+  **OR**
+* Serve using a local web server for better performance
 
-📌 Roadmap (Planned Improvements)
+---
 
-✅ Drag & Drop file upload
+## 🗺️ **Roadmap**
 
-✅ Stitch color customization
+Planned improvements and future features:
 
-🔄 Format conversion support
+* ✅ Drag & drop file upload
+* 🎨 Stitch color customization
+* 🔄 File format conversion
+* 📊 Stitch count & thread usage analytics
+* 📱 Mobile UI optimization
+* ☁️ Cloud save & share links
+* 🔌 Public API support
 
-📊 Stitch count & thread usage analysis
+---
 
-📱 Mobile UI optimization
+## 🤝 **Contributing**
 
-☁️ Cloud save & share links
+Contributions are **welcome and appreciated**.
 
-🔌 API support for integration
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Open a Pull Request
 
-🤝 Contributing
+> If you work with embroidery formats or visualization tools, your expertise is highly valuable.
 
-Contributions are welcome.
+---
 
-Fork the repository
+## 📄 **License**
 
-Create a feature branch
+This project is licensed under the **MIT License**.
+You are free to **use, modify, and distribute** this software.
 
-Commit your changes
+---
 
-Open a Pull Request
+## 👨‍💻 **Author**
 
-If you work with embroidery formats or visualization, your input is highly valuable.
+**Dharmesh Rathod**
 
-📄 License
+> Building **practical web tools** that solve real-world problems.
 
-This project is licensed under the MIT License — free to use, modify, and distribute.
+---
 
-🙌 Author
-
-Dharmesh Rathod
-Passionate about building real-world web tools that solve practical problems.
-
-⭐ Support
+## ⭐ **Support the Project**
 
 If this project helped you:
 
-⭐ Star the repository
-
-🐛 Report issues
-
-💡 Suggest improvements
+* ⭐ Star the repository
+* 🐛 Report issues
+* 💡 Suggest new features
