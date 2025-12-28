@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Online embroidery viewer and converter</title>
+    <link rel="icon" type="image/x-icon" href="/favicon_io/logo.bmp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        canvas {
+            width: 200px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 80%; /* Ensure canvas doesn't exceed container width */
+        }
+    </style>
+</head>
+
+<body>
+  <center>  <h1> Welcome To </h1>
+    <h2> Online Embroidery Viewer and Converter </h2> </center>
+    <div class="container">
+        <button id="saveFile" class="btn btn-primary">Save</button>
+        <button id="renderAs" class="btn btn-primary">Render as 3D</button>
+        <h3>Select a .DST, .EXP, .EXY, .JEF, .PCS, .PEC, .PES, .SEW, .VP3, .XXX or .Z00 file:</h3>
+        <input type="file" id="files" name="files[]" multiple />
+        
+        <canvas id="theCanvas"></canvas>
+        <script src="bundle.js"></script>
+        <br/>
+        <h5><sub style="color:red">⚠️Don't Select a .EMB, .DGT, .VF3 file as it is currently Not supported.</sub></h5>
+        <!-- <canvas id="theCanvas1"></canvas> -->
+        <script src="mybundle.js"></script>
+
+        <br>
+        <br>
+        <button id="ReFresh" class="btn btn-primary">Refresh</button>
+        <br>
+        <script src="refresh.js"></script>
+    </div>
+
+    <!-- Bootstrap JS (Optional, if you need Bootstrap JavaScript features) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- <script>
+       
+    </script> -->
+</body>
+
+</html>
